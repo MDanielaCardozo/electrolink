@@ -1,0 +1,140 @@
+nav {
+    background-color: #127736;
+    font-size: 20px;
+    color: #ffffff;
+}
+.logo {
+    width: 125px;
+}
+
+.footer{
+    background: #127736;
+    color: #ffffff;
+    
+}
+.footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.tituloCategoria{
+    color: #127736;
+}
+
+.producto{
+    height: 200px;
+    width: fit-content;
+}
+
+.btn-claro{
+    background: #b5d1b8;
+}
+
+.btn-oscuro{
+    background: #127736;
+    color: #ffffff;
+}
+
+.main{
+    background: #dae8db;
+}
+
+.baners{
+    height: 550px;
+    width: 100%;
+}
+
+.color-paginacion{
+    color:#127736;
+}
+
+.activo{
+    color: #ffffff;
+    background: #127736;
+}
+
+.color-paginacion:hover{
+    color: #127736;
+    background: #b5d1b8;
+}
+
+.imgCategoria{
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+.botonModal {
+    background-color: #800080;
+}
+
+.carruseItem {
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .card{
+    height: 100%;
+  }
+  
+  .anuncios {
+    object-fit: cover;
+  }
+  
+  .card:hover{
+    
+      transition: 500ms;
+      position: relative;
+      bottom: 3px;
+      right: 3px;
+  }
+  
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    
+    .logo {
+        width: 70px;
+        margin: 15px;
+    }
+
+    #navbarNav {
+        margin-left: 15px;
+    }
+
+    #anuncioDos{
+        visibility: hidden;
+      }
+
+    .baners {
+        height: 350px;
+        object-fit: cover;
+    }
+
+}
+
+@media all and (max-width: 767px) {
+    
+    .logo {
+        width: 70px;
+        margin: 15px;
+    }
+
+    #navbarNav {
+        margin-left: 15px;
+    }
+
+    #anuncioDos{
+        visibility: hidden;
+      }
+
+    .baners {
+        height: 200px;
+        object-fit: cover;
+    }
+
+}
+
+
